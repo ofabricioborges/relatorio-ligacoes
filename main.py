@@ -1,5 +1,5 @@
 import pandas as pd
-from enviaremail import enviar_email
+#from enviaremail import enviar_email
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
@@ -7,7 +7,7 @@ if __name__ == '__main__':
     pd.set_option('display.max_columns', None)
 
     # Abre o CSV
-    relatorio = pd.read_csv('connip.com.br.csv')
+    relatorio = pd.read_csv('relatorio.csv')
 
     # Converte em DataFrame
     df = pd.DataFrame(relatorio)
@@ -40,4 +40,4 @@ if __name__ == '__main__':
     y = horarios['Qtd']
     plt.plot(x, y)
     plt.show()
-    enviar_email()
+    #enviar_email()
