@@ -1,8 +1,8 @@
 # relatorio-ligacoes
 Relatório Mensal com informações de atendimento. \n\n
 
-Recebe o csv sempre nesse padrão. - Ok \n
-Calcula quantas ligações recebeu no período. - Ok \n
+Recebe o csv sempre nesse padrão. - Ok  
+Calcula quantas ligações recebeu no período. - Ok  
 Calcula quantas ligações tiveram cada status: Atendida, Não Atendida, Falhou, Ocupado... - Ok \n
 Calcula quantas ligações tiveram no intervalo de cada horário, para identificar horários de pico - Ok \n\n
 
